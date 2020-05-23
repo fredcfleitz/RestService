@@ -1,4 +1,4 @@
-package com.example.restservice;
+package com.restservice;
 
 import org.springframework.data.annotation.Id;
 
@@ -9,6 +9,8 @@ public class Customer {
 
   public String firstName;
   public String lastName;
+  public String country;
+  public String phone;
 
   public Customer() {}
 
@@ -32,6 +34,23 @@ public class Customer {
   public void setLastName(String lastName) {
     this.lastName = lastName;
   }
+  
+  public String getCountry(){
+	  return country;
+  }
+  
+  public void setCountry(String country) {
+	  this.country = country;
+  }
+  
+  public String getPhone() {
+	  return phone;
+  }
+  
+  public void setPhone(String phone) {
+	  this.phone = phone;
+  }
+	  
 
   /* @Override
   public String toString() {

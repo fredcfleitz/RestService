@@ -1,4 +1,4 @@
-package com.example.restservice;
+package com.restservice;
 
 import java.util.List;
 
