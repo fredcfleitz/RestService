@@ -10,5 +10,4 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 public interface CustomerRepository extends MongoRepository<Customer, String> {
 
   List<Customer> findByLastName(@Param("name") String name);
-
 }
